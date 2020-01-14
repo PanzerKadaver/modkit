@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using JSon;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-//[assembly: AssemblyTitle("My Mod")] // ENTER MOD TITLE
+[assembly: AssemblyTitle("BetterStart")] // ENTER MOD TITLE
 
 
 public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NAME
@@ -23,7 +23,7 @@ public class ModEntryPoint : MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NA
 
     void GameLoaded(GlobalEvents.GameStart evnt)
     {
-        Localization.LoadStrings("mymod_strings_");
+        //Localization.LoadStrings("mymod_strings_");
         Game.World.console.DeveloperMode();
     }
 
