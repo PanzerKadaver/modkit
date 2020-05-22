@@ -130,7 +130,7 @@ public class ModBuilder : EditorWindow
     const string PATH_BUILD_BUNDLE = "Temp/ModBuild";
 
     bool buildAssetBundle = true;
-    bool clearLogs = true;
+    bool clearLogs = false;
 
     public static void ClearLogConsole()
     {
@@ -183,11 +183,15 @@ public class ModBuilder : EditorWindow
 
                 //HACK for unique id
                 AssetImporter.GetAtPath("Assets/Resources").SetAssetBundleNameAndVariant(modName + "_resources", "");
-                AssetDatabase.Refresh();
+                AssetDatabase.Refresh(ImportAssetOptions.ImportRecursive);
 
                 if (buildAssetBundle)
                 {
-                    BuildPipeline.BuildAssetBundles(PATH_BUILD_BUNDLE, BuildAssetBundleOptions.None/*BuildAssetBundleOptions.DisableWriteTypeTree*/, BuildTarget.StandaloneWindows64);
+                    Debug.Log("Building bundle...");
+                    var b = BuildPipeline.BuildAssetBundles(PATH_BUILD_BUNDLE, BuildAssetBundleOptions.None/*BuildAssetBundleOptions.DisableWriteTypeTree*/, BuildTarget.StandaloneWindows64);
+
+                    Debug.Log("Bundle length : " + b.GetAllAssetBundles().Length);
+                    
                 }
 
                 if(clearLogs)
