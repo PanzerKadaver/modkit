@@ -64,10 +64,10 @@ public static class SavWav {
 	}
 
 	public static AudioClip TrimSilence(List<float> samples, float min, int channels, int hz) {
-		return TrimSilence(samples, min, channels, hz, false, false);
+		return TrimSilence(samples, min, channels, hz, false);
 	}
 
-	public static AudioClip TrimSilence(List<float> samples, float min, int channels, int hz, bool _3D, bool stream) {
+	public static AudioClip TrimSilence(List<float> samples, float min, int channels, int hz, bool stream) {
 		int i;
 
 		for (i=0; i<samples.Count; i++) {
@@ -86,7 +86,7 @@ public static class SavWav {
 
 		samples.RemoveRange(i, samples.Count - i);
 
-		var clip = AudioClip.Create("TempClip", samples.Count, channels, hz, _3D, stream);
+		var clip = AudioClip.Create("TempClip", samples.Count, channels, hz, stream);
 
 		clip.SetData(samples.ToArray(), 0);
 
@@ -153,10 +153,7 @@ public static class SavWav {
 		Byte[] subChunk1 = BitConverter.GetBytes(16);
 		fileStream.Write(subChunk1, 0, 4);
 
-		UInt16 two = 2;
-		UInt16 one = 1;
-
-		Byte[] audioFormat = BitConverter.GetBytes(one);
+		Byte[] audioFormat = BitConverter.GetBytes(1);
 		fileStream.Write(audioFormat, 0, 2);
 
 		Byte[] numChannels = BitConverter.GetBytes(channels);
