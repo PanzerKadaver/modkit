@@ -1,0 +1,16 @@
+﻿{
+    "perks" : { 
+        "childprodigy_info" : "You were always way ahead of your peers as a child, but now you struggle to learn new things.\n+1 Intellect; +1 Personality; +1 Attention\n-25% EXP gain\n-1 Talent Point per level.",
+        "tp_abrev" : "TP",
+        "leader_info" : "You've always been a natural leader. How inspiring you are !\n(For every follower, you get:) +7 Speechcraft; +5 First Aid; +5 Barter.\n(Followers get:) +1 Dexterity; +1 Endurance.",
+        "sexappeal_info" : "You are drop dead, crazy gorgeous! The opposite sex has the yayas for you, but your own gender tends to be jealous.\n+2 Personality and +15 Barter with the opposite gender.\n-1 Personality with your own gender.",
+    },
+    "spec" : {
+        "status_child_prodigy" : "As Child Prodigy, you cannot select this ability."
+	},
+    "hint" : {
+        "speclvl" : "Your Talent Points (TP). Each level you get <b>$SPEC_LVLP$</b> of those.", 
+        "speclvlnext" : "How much Talent Points you have spent since level 1.",
+        "perktree" : "Talent Tree"
+	}
+}
