@@ -69,6 +69,7 @@ internal class AssetViewerDB
 
         foreach (string f in Directory.GetFiles(Application.streamingAssetsPath))
         {
+            Debug.Log(f);
             try
             {
                 if (!Path.HasExtension(f))
