@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.IO;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Steamworks;
 
 class SteamService
@@ -64,7 +62,7 @@ public class ModBuilder : EditorWindow
     private int _modIndex = -1;
 
     SteamService steam = new SteamService();
-   // string _modName = typeof(ModEntryPoint).Assembly.GetName().Name;
+    // string _modName = typeof(ModEntryPoint).Assembly.GetName().Name;
     [MenuItem("Game/Build Mod")]
     static void BuildMod()
     {

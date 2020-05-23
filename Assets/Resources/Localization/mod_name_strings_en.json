@@ -1,0 +1,372 @@
+{
+    "ammo" : {
+    },
+    "character" : {
+    },
+    "weapon" : {
+    },
+    "chest" : {
+    },
+    "consumable" : {
+    },
+    "item" : {
+    },
+    "door" : {
+    }, 
+    "pinmenu" : {
+    },
+    "notification" : {
+        "battle" : {
+            "woodweapon" : [
+            ]
+        },
+        "locker" : {
+        },
+        "tm_locker_help" : {
+        },
+        "quest" : {
+        },
+        "pdamap" : {
+        },
+        "rest" : {
+        },
+        "consumable" : {
+        },
+    },
+    "quests" : {
+    },
+    "memo" : {
+    },
+    "uniform" : {
+    },
+    "stats" : {
+        "strength_value" : [
+        ],
+        "perception_value" : [
+        ],
+        "endurance_value" : [
+        ],
+        "charisma_value" : [
+        ],
+        "intelligence_value" : [
+        ],
+        "agility_value" : [
+        ],
+        "luck_value" : [
+        ],
+        "wolfter_strength_value" : [
+        ],
+        "wolfter_perception_value" : [
+        ],
+        "wolfter_endurance_value" : [
+        ],
+        "wolfter_charisma_value" : [
+        ],
+        "wolfter_intelligence_value" : [
+        ],
+        "wolfter_agility_value" : [
+        ],
+        "wolfter_luck_value" : [
+        ]
+    },
+    "skills" : {
+    },
+    "itemmenu" : {
+    },
+    "moveitem" : {
+    },
+    "contextmenu" : {
+    },
+    "bombtimer" : {
+    },
+    "mainmenu" : {
+        "bundle" : {
+        },
+        "bundle_desc" : {
+        },
+        "bundle_desc_fm" : {
+        },
+    }, 
+    "gamemenu" : {
+    }, 
+    "pdamenu" : {
+        "questfilter" : {
+        }
+    },
+    "inventorymenu" : {
+        "chancecraft" : {
+            "value" : [
+            ]
+        },
+    },
+    "commonbutton" : {
+    },
+    "dialogmenu" : {
+    },
+    "saveload" : {
+        "title" : {
+        },
+    },
+    "levelup" : {
+    },
+    "boardmenu" : {
+    },
+    "createmenu" : {
+    },
+    "bartermenu" : {
+    },
+    "exitmenu" : {
+    },
+    "characterinfohud" : {
+    },
+    "playerinfo" : {
+        "spread_value" : [
+        ],
+        "distances" : {
+        },
+        "rulesex" : {
+        },
+        "uniform" : {
+        }
+    },
+    "boardhud" : {
+    },
+    "perks" : {
+    },
+    "enterzone" : {
+    },
+    "encounter" : {
+        "slavers" : {
+        },
+        "headhunter" : {
+        },
+        "headhunter2" : {
+        },
+        "headhunter3" : {
+        },
+        "monster" : {
+        },
+        "ants" : {
+        },
+        "spiders" : {
+        },
+        "spiders_2" : {
+        },
+        "americanwarrior" : {
+        },
+        "zolotoy" : {
+        },
+        "semka" : {
+        },
+        "racket" : {
+        },
+        "drug" : {
+        },
+        "hallucinating" : {
+        },
+    },
+    "location" : {
+    },
+    "indevelopment" : {
+    },
+    "condition" : {
+    },
+    "explosive" : {
+        "tnt" : {
+        },
+        "fallback" : {
+        }
+    },
+    "whoop" : {
+        "hallucinating" : [
+        ],
+        "default" : {
+        },
+        "village" : {
+        },
+        "lab_factory" : {
+        },
+        "lab_factory_1" : {
+        },
+        "metro_vaxta" : {
+        },
+        "krz" : {
+        },
+        "_redhanded_attack" : {
+        },
+        "head_male_hit_male" : [
+        ],
+        "head_female_hit_male" : [
+        ],
+        "head_female_hit_female" : [
+        ],
+        "head_male_hit_female" : [
+        ],
+        "body_male_hit_male" : [
+        ],
+        "body_female_hit_male" : [
+        ],
+        "body_female_hit_female" : [
+        ],
+        "body_male_hit_female" : [
+        ],
+        "eyes_male_hit_male" : [
+        ],
+        "eyes_female_hit_male" : [
+        ],
+        "eyes_female_hit_female" : [
+        ],
+        "eyes_male_hit_female" : [
+        ],
+        "male_miss_male" : [
+        ],
+        "female_miss_male" : [
+        ],
+        "female_miss_female" : [
+        ],
+        "male_miss_female" : [
+        ],
+        "ai_tactic" : {
+            "human" : [
+            ],
+            "human_move" : [
+            ],
+            "human_target" : [
+            ],
+            "dog" : [
+            ]
+        },
+        "accepting" : {
+            "apply" : [
+            ],
+            "noany" : [
+            ],
+            "nodrug" : [
+            ],
+            "nociggy" : [
+            ],
+            "noalco" : [
+            ]
+        },
+        "head_crit" : [
+        ],
+        "body_crit" : [
+        ],
+        "eyes_crit" : [
+        ],
+        "friendly_fire" : [
+        ],
+        "hand_crit" : [
+        ],
+        "leg_crit" : [
+        ],
+        "blind_crit" : [
+        ],
+        "drop_crit" : [
+        ]
+    },
+    "distinction" : {
+    },
+    "params" : {
+    },
+    "loading" : {
+    },
+    "aim" : {
+        "status" : {
+        },
+        "status_obj" : {
+        },
+    },
+    "debug" : {
+    },
+    "craft" : {
+    },
+    "highlights" : {
+    },
+    "settings" : {
+        "tab" : {
+        },
+        "fullscreen" : {
+        }, 
+        "resolution" : {
+        }, 
+        "sound" : {
+        },
+        "display" : {
+        },
+        "quality" : {
+        },
+        "uiscale" : {
+        },
+        "vsync" : {
+        },
+        "language" : {
+        },
+        "input" : {
+        },
+        "game" : {
+        },
+        "control" : {
+        },
+        "reflection" : {
+        }
+    },
+    "names" : {
+        "male" : [
+        ],
+        "female" : [
+        ]
+    },
+    "deathtext" : [
+    ],
+    "idbox" : {
+    },
+    "datatime" : {
+    },
+    "difficult" : {
+    },
+    "weaponperk" : {
+    },
+    "bomb" : {
+    },
+    "effects" : {
+    },
+    "spec" : {
+    },
+    "vehicle" : {
+    },
+    "console_help" : {
+    },
+    "hint" : {
+        "stats" : {
+        }
+    },
+    "training" : {
+    },
+    "uniformperk" : {
+    },
+    "giveway" : {
+        "fidel" : [
+        ], 
+        "gexogen" : [
+        ], 
+        "alexander" : [
+        ], 
+        "galina" : [
+        ], 
+        "alfa" : [
+        ], 
+        "hostage" : [
+        ], 
+        "wolfter" : [
+        ]
+    },
+    "publicevent" : {
+    },
+    "popups" : {
+    },
+    "statistics" : {
+        "kills" : {
+        }
+    }
+}

@@ -359,11 +359,11 @@ public class AssetViewer : EditorWindow
             case nameof(AnimatorOverrideController):
                 return null;
             case nameof(GameObject):
-                return null;
-                //return SavePrefab((GameObject)o, Path.GetDirectoryName(path) + "/" + ((GameObject)o).name + ".prefab");
+                //return null;
+                return SavePrefab((GameObject)o, Path.GetDirectoryName(path) + "/" + ((GameObject)o).name + ".prefab");
             case nameof(AudioSourceSettings):
-                return null;
-            //return SaveScriptableAsset((ScriptableObject)o, Path.GetDirectoryName(path) + "/" + ((ScriptableObject)o).name + ".asset");
+                //return null;
+                return SaveScriptableAsset((ScriptableObject)o, Path.GetDirectoryName(path) + "/" + ((ScriptableObject)o).name + ".asset");
             default:
                 replace = false;
                 break;
