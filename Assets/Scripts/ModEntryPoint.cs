@@ -6,7 +6,7 @@ using Debug = Assets.Scripts.Debug;
 using UnityEditor;
 #endif
 
-[assembly: AssemblyTitle("mod_name")] // ENTER MOD TITLE
+[assembly: AssemblyTitle("ui_injection")] // ENTER MOD TITLE
 
 public class ModEntryPoint : UnityEngine.MonoBehaviour // ModEntryPoint - RESERVED LOOKUP NAME
 {
