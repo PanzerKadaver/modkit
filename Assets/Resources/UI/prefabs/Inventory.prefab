@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -385,6 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -1652,6 +1654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -1799,6 +1802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -2165,6 +2169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -2312,6 +2317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -2532,6 +2538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -2774,6 +2781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -2921,6 +2929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -3068,6 +3077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -3469,6 +3479,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327230907}
   Highlight: {fileID: 1790179782326658537}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327230918
 MonoBehaviour:
@@ -3625,6 +3636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 0
   m_RepeatOnPress: 0
@@ -4357,6 +4369,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327230917}
   Highlight: {fileID: 0}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327230891
 MonoBehaviour:
@@ -4513,6 +4526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 0
   m_RepeatOnPress: 0
@@ -4965,7 +4979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1790179782327200437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5239,6 +5253,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327230905}
   Highlight: {fileID: 0}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327230916
 MonoBehaviour:
@@ -5509,6 +5524,7 @@ GameObject:
   - component: {fileID: 1790179782327188460}
   - component: {fileID: 1790179782327230911}
   - component: {fileID: 1790179782327230890}
+  - component: {fileID: 3488817750243598127}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: 
@@ -5619,6 +5635,52 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3488817750243598127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790179782326693090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11af82f309cd9b46a1bd44e32a60e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Backpack: {fileID: 1790179782327230900}
+  Ground: {fileID: 1790179782327222951}
+  MainItem: {fileID: 1790179782327230918}
+  SecondItem: {fileID: 1790179782327231184}
+  BackpackZone: {fileID: 1790179782327230879}
+  GroundZone: {fileID: 1790179782327210307}
+  RucksackItem: {fileID: 1790179782327231127}
+  CapItem: {fileID: 1790179782327231093}
+  ArmorItem: {fileID: 1790179782327231102}
+  MaskItem: {fileID: 1790179782327231179}
+  Ingredient1: {fileID: 1790179782327231113}
+  Ingredient2: {fileID: 1790179782327231044}
+  Ingredient3: {fileID: 1790179782327231120}
+  Ingredient4: {fileID: 1790179782327230891}
+  CraftItem: {fileID: 1790179782327230916}
+  PlayerInfoL: {fileID: 1790179782327230912}
+  PlayerInfoR: {fileID: 1790179782327231073}
+  PlayerInfoB: {fileID: 1790179782327231047}
+  PlayerInfoW: {fileID: 1790179782327230899}
+  PlayerRadiation: {fileID: 1790179782327231160}
+  PlayerToxic: {fileID: 1790179782327231058}
+  PlayerHunger: {fileID: 1790179782327231063}
+  PlayerView: {fileID: 1790179782326693215}
+  CraftView: {fileID: 1790179782326693070}
+  CraftContent: {fileID: 1790179782326693107}
+  CraftItemTemplate: {fileID: 1790179782326574471, guid: 29435433d4bc410eaeb308d1fb5914df,
+    type: 3}
+  CraftChance: {fileID: 1790179782327230881}
+  PlyerTab: {fileID: 1790179782327231115}
+  CraftTab: {fileID: 1790179782327231119}
+  CraftInfo: {fileID: 1790179782327231086}
+  _soundOpen: {fileID: 8300000, guid: 98903c8c03c24211be34e82e5e19b314, type: 3}
+  _sondClose: {fileID: 8300000, guid: 032af722fbe44439883a8f352ca6a1b5, type: 3}
+  _takeAllPanel: {fileID: 0}
 --- !u!1 &1790179782326693094
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,7 +6111,7 @@ GameObject:
   - component: {fileID: 1790179782327188370}
   - component: {fileID: 1790179782327231073}
   m_Layer: 5
-  m_Name: PanelInfor
+  m_Name: PanelInfoR
   m_TagString: 
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6510,6 +6572,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231170}
   Highlight: {fileID: 0}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231044
 MonoBehaviour:
@@ -6536,7 +6599,7 @@ GameObject:
   - component: {fileID: 1790179782327231188}
   - component: {fileID: 1790179782327231094}
   m_Layer: 5
-  m_Name: Content
+  m_Name: CraftContent
   m_TagString: 
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6855,6 +6918,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231054}
   Highlight: {fileID: 1790179782326614499}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231179
 MonoBehaviour:
@@ -6926,6 +6990,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231156}
   Highlight: {fileID: 1790179782326649850}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231093
 MonoBehaviour:
@@ -7118,6 +7183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -7652,6 +7718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -8838,6 +8905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -9348,6 +9416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 3
   m_RepeatOnPress: 0
@@ -9553,6 +9622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 0
   m_RepeatOnPress: 0
@@ -9647,6 +9717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 3
   m_RepeatOnPress: 0
@@ -10732,6 +10803,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231128}
   Highlight: {fileID: 1790179782326657403}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231127
 MonoBehaviour:
@@ -11260,6 +11332,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231163}
   Highlight: {fileID: 0}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231120
 MonoBehaviour:
@@ -11416,6 +11489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -11637,6 +11711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -11772,6 +11847,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231166}
   Highlight: {fileID: 1790179782326696145}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231102
 MonoBehaviour:
@@ -12023,6 +12099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 0
   m_RepeatOnPress: 0
@@ -12748,6 +12825,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231053}
   Highlight: {fileID: 0}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231113
 MonoBehaviour:
@@ -12978,6 +13056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -13440,6 +13519,7 @@ MonoBehaviour:
   Image: {fileID: 1790179782327231130}
   Highlight: {fileID: 1790179782326591182}
   Seen: {fileID: 0}
+  selection: {fileID: 0}
   m_Scroll: {fileID: 0}
 --- !u!114 &1790179782327231184
 MonoBehaviour:
@@ -13669,6 +13749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -13934,6 +14015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
@@ -14081,6 +14163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _action: 0
+  _actionOnUp: 1
   HotKey: 0
   m_Type: 4
   m_RepeatOnPress: 0
